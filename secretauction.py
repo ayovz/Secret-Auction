@@ -33,7 +33,7 @@ bidder_check = True
 
 while bidder_check:
     name = input("Enter your name: ")
-    price = int(input("Enter your bid: "))
+    price = int(input("Enter your bid: $"))
 
     procedure(name, price)
 
