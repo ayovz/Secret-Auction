@@ -48,4 +48,6 @@ while bidder_check:
     else:
         print("Sorry, you can't proceed.")
 
+os.system("cls")  # or "clear" if on Mac/Linux
+print(ascii_art)
 highest_bid(auction)
